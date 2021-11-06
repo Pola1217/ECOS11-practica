@@ -1,0 +1,29 @@
+{
+  "name": "ecos11practica",
+  "version": "1.0.0",
+  "description": "practica para ecosistemas de semana 11",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack --watch --progress",
+    "visualize-bundle": "webpack --analyze"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Pola1217/ECOS11-practica.git"
+  },
+  "author": "Maria Jose Polanco Puerta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pola1217/ECOS11-practica/issues"
+  },
+  "homepage": "https://github.com/Pola1217/ECOS11-practica#readme",
+  "dependencies": {
+    "firebase": "^9.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
